@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Pipeline artifacts
+multiomics_graph/outputs/
+multiomics_graph/*.pt
+multiomics_graph/*.npy
+
+# KEGG compound caches
+multiomics_graph/outputs/cache/
+**/outputs/cache/
+
+# Raw strain data (large NCBI/experimental downloads) - keep config.json,
+# experimental design files and eggnog_annotations.tsv tracked instead
+strains/*/genome/
+strains/*/Genome/
+strains/*/proteomics/
+strains/*/transcriptomic/
+strains/*/transcriptomics/
+
+# eggNOG-mapper intermediates (regenerable; only the .tsv is committed)
+strains/*/eggnog_annotations.emapper.*
+
+# Scratch test scripts
+multiomics_graph/_test_eggnog_api.py
+
+# Scratch COG data
+cog-20.cog.csv
+
+# OS
+.DS_Store
+Thumbs.db

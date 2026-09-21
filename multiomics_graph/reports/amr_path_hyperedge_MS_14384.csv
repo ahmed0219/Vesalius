@@ -1,0 +1,13 @@
+strain,marker,amr_class,locus_tag,protein_id,hyperedge_id,hyperedge_type,hyperedge_name,hyperedge_n_nodes
+MS_14384,blaCMY-2,beta_lactam,EW037_RS20170,WP_000976514.1,1909,multi_omics_triple,Triple_EW037_RS20170,3
+MS_14384,blaCMY-2,beta_lactam,EW037_RS20170,WP_000976514.1,2370,kegg_pathway,map02020,112
+MS_14384,blaCMY-2,beta_lactam,EW037_RS20170,WP_000976514.1,2371,kegg_pathway,ko02020,112
+MS_14384,blaCMY-2,beta_lactam,EW037_RS20170,WP_000976514.1,2470,kegg_pathway,map01501,19
+MS_14384,blaCMY-2,beta_lactam,EW037_RS20170,WP_000976514.1,2471,kegg_pathway,ko01501,19
+MS_14384,blaCMY-2,beta_lactam,EW037_RS20170,WP_000976514.1,2743,cog_category,COG_V: Defense mechanisms,54
+MS_14384,blaCMY-2,beta_lactam,EW037_RS20170,WP_000976514.1,2748,amr_mechanism,beta_lactam_resistance,3
+MS_14384,blaCMY-2,beta_lactam,EW037_RS20170,WP_000976514.1,2811,go_term,GO:0046677: P:response to antibiotic,31
+MS_14384,blaCMY-2,beta_lactam,EW037_RS20170,WP_000976514.1,2846,go_term,GO:0030288: C:outer membrane-bounded periplasmic space,49
+MS_14384,blaCMY-2,beta_lactam,EW037_RS20170,WP_000976514.1,3368,go_term,GO:0008800: F:beta-lactamase activity,2
+MS_14384,blaCMY-2,beta_lactam,EW037_RS20170,WP_000976514.1,3565,metabolic_pathway,Metabolic_map02020,123
+MS_14384,blaCMY-2,beta_lactam,EW037_RS20170,WP_000976514.1,3767,go_term,GO:0017001: GO:0017001,1

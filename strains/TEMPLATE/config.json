@@ -1,0 +1,24 @@
+{
+  "name": "Escherichia coli <STRAIN_NAME>",
+  "ncbi_tax_id": 562,
+  "kegg_code": "eco",
+  "regulation_std_multiplier": 0.0,
+  "string_species_primary": 199310,
+  "string_species_fallback": 511145,
+  "transcriptomics": {
+    "rpmi_samples": ["RPMI_SAMPLE_ID_1", "RPMI_SAMPLE_ID_2"],
+    "sera_samples": ["SERA_SAMPLE_ID_1", "SERA_SAMPLE_ID_2"]
+  },
+  "proteomics": {
+    "rpmi_ids": [11111, 22222],
+    "sera_ids": [33333, 44444],
+    "swath": {
+      "enabled": true,
+      "file": "proteomics/<your_file>.xlsx",
+      "sheet": "Area - proteins",
+      "protein_col": "Protein",
+      "rpmi_template": "{sid} <YOUR_RPMI_COLUMN_PATTERN>",
+      "sera_template": "{sid} <YOUR_SERA_COLUMN_PATTERN>"
+    }
+  }
+}

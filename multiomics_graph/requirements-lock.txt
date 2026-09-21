@@ -1,0 +1,13 @@
+# Pinned dependency versions for exactly-reproducible pipeline runs.
+# Generated against the validated development environment; pinning fixes the
+# behavior differences that loose ranges (>=) otherwise allow between runs.
+# To install:  pip install -r requirements-lock.txt
+pandas==3.0.1
+numpy==2.4.2
+matplotlib==3.10.8
+networkx==3.6.1
+requests==2.32.4
+openpyxl==3.1.5
+torch==2.12.0
+torch-geometric==2.8.0.post1
+scipy==1.18.0

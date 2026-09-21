@@ -1,0 +1,9 @@
+strain,marker,amr_class,locus_tag,protein_id,COG,n_kegg_pathways,n_ppi_neighbors,in_genome,in_aligned_omics
+B36,tet(A),tetracycline,EW036_RS26095,WP_000804064.1,"E,G,P",0,0,True,False
+B36,dfrA17,trimethoprim,EW036_RS26140,WP_001389366.1,H,8,0,True,True
+B36,aadA5,aminoglycoside,EW036_RS26145,WP_000503573.1,S,0,0,True,False
+B36,sul1,sulfonamide,EW036_RS26155,WP_000259031.1,H,4,0,True,True
+B36,mph(A),macrolide,EW036_RS26210,WP_000219391.1,S,0,0,True,True
+B36,blaCTX-M-15,beta_lactam,EW036_RS26225,WP_000239590.1,V,6,0,True,False
+B36,blaOXA-1,beta_lactam,EW036_RS26250,WP_001334766.1,V,2,0,True,True
+B36,aac(6')-Ib-cr5,fluoroquinolone,EW036_RS26255,WP_063840321.1,J,0,0,True,True

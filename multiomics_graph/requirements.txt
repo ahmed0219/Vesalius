@@ -1,0 +1,9 @@
+pandas>=1.5
+numpy>=1.23
+matplotlib>=3.6
+networkx>=2.8
+requests>=2.28
+torch>=1.13
+torch-geometric (optional — enables full HeteroData with PyG operators)
+torch-geometric>=2.3
+scipy>=1.10 (optional — fast exact binomial tails for the candidate enrichment statistics)

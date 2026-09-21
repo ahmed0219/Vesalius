@@ -1,0 +1,10 @@
+AMR synergies across strains
+===========================
+Core mechanisms (present in every strain):
+  ['beta_lactam']
+
+Shared markers (>=2 strains):
+  ['blaTEM-1b', 'mph(A)', 'strAB', 'sul2']
+
+Strain-specific markers (single strain):
+  ['aac(3)-IId', "aac(6')-Ib-cr5", 'aadA1', 'aadA5', "aph(3')-Ia", 'blaCMY-2', 'blaCTX-M-15', 'blaOXA-1', 'blaTEM-215', 'dfrA12', 'dfrA14', 'dfrA17', 'floR', 'fosA4', 'sul1', 'sul3', 'tet(A)']

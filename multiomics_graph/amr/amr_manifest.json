@@ -1,0 +1,186 @@
+{
+  "B36": {
+    "tet(A)": {
+      "name": "tet(A)",
+      "amr_class": "tetracycline",
+      "locus_tag": "EW036_RS26095",
+      "protein_id": "WP_000804064.1",
+      "source": "paper (GFF: tetracycline efflux MFS transporter Tet(A))"
+    },
+    "dfrA17": {
+      "name": "dfrA17",
+      "amr_class": "trimethoprim",
+      "locus_tag": "EW036_RS26140",
+      "protein_id": "WP_001389366.1",
+      "source": "paper (GFF: trimethoprim-resistant dihydrofolate reductase DfrA17)"
+    },
+    "aadA5": {
+      "name": "aadA5",
+      "amr_class": "aminoglycoside",
+      "locus_tag": "EW036_RS26145",
+      "protein_id": "WP_000503573.1",
+      "source": "paper (GFF: ANT(3'')-Ia family aminoglycoside nucleotidyltransferase AadA5)"
+    },
+    "sul1": {
+      "name": "sul1",
+      "amr_class": "sulfonamide",
+      "locus_tag": "EW036_RS26155",
+      "protein_id": "WP_000259031.1",
+      "source": "paper (GFF: sulfonamide-resistant dihydropteroate synthase Sul1)"
+    },
+    "mph(A)": {
+      "name": "mph(A)",
+      "amr_class": "macrolide",
+      "locus_tag": "EW036_RS26210",
+      "protein_id": "WP_000219391.1",
+      "source": "paper (GFF: Mph(A) family macrolide 2'-phosphotransferase)"
+    },
+    "blaCTX-M-15": {
+      "name": "blaCTX-M-15",
+      "amr_class": "beta_lactam",
+      "locus_tag": "EW036_RS26225",
+      "protein_id": "WP_000239590.1",
+      "source": "paper (GFF: ESBL CTX-M-15)"
+    },
+    "blaOXA-1": {
+      "name": "blaOXA-1",
+      "amr_class": "beta_lactam",
+      "locus_tag": "EW036_RS26250",
+      "protein_id": "WP_001334766.1",
+      "source": "paper (GFF: oxacillin-hydrolyzing class D beta-lactamase OXA-1)"
+    },
+    "aac(6')-Ib-cr5": {
+      "name": "aac(6')-Ib-cr5",
+      "amr_class": "fluoroquinolone",
+      "locus_tag": "EW036_RS26255",
+      "protein_id": "WP_063840321.1",
+      "source": "paper (GFF: AAC(6')-Ib-cr5)"
+    }
+  },
+  "MS_14384": {
+    "blaCMY-2": {
+      "name": "blaCMY-2",
+      "amr_class": "beta_lactam",
+      "locus_tag": "EW037_RS20170",
+      "protein_id": "WP_000976514.1",
+      "source": "paper (GFF: CMY-2) [chromosomal ampC/BlaEC is distinct]"
+    }
+  },
+  "MS_14386": {
+    "blaTEM-1b": {
+      "name": "blaTEM-1b",
+      "amr_class": "beta_lactam",
+      "locus_tag": "EW035_RS23590",
+      "protein_id": "WP_000027057.1",
+      "source": "paper (GFF labels as TEM-1; locus EW035_RS23590)"
+    },
+    "blaTEM-215": {
+      "name": "blaTEM-215",
+      "amr_class": "beta_lactam",
+      "locus_tag": "EW035_RS24340",
+      "protein_id": "WP_050190632.1",
+      "source": "paper (GFF labels as TEM-1; locus EW035_RS24340)"
+    },
+    "aac(3)-IId": {
+      "name": "aac(3)-IId",
+      "amr_class": "aminoglycoside",
+      "locus_tag": "EW035_RS23675",
+      "protein_id": "WP_000557454.1",
+      "source": "paper"
+    },
+    "aadA1": {
+      "name": "aadA1",
+      "amr_class": "aminoglycoside",
+      "locus_tag": "EW035_RS23490",
+      "protein_id": null,
+      "note": "frameshifted pseudogene, no protein accession; genome-only",
+      "source": "paper"
+    },
+    "aph(3')-Ia": {
+      "name": "aph(3')-Ia",
+      "amr_class": "aminoglycoside",
+      "locus_tag": "EW035_RS23605",
+      "protein_id": "WP_000018329.1",
+      "source": "paper"
+    },
+    "strAB": {
+      "name": "strAB",
+      "amr_class": "aminoglycoside",
+      "locus_tag": ["EW035_RS23615", "EW035_RS23620"],
+      "protein_id": ["WP_001495812.1", "WP_001082320.1"],
+      "source": "paper (strA=APH(6)-I EW035_RS23615, strB=aph(3'')-Ib EW035_RS23620)"
+    },
+    "sul2": {
+      "name": "sul2",
+      "amr_class": "sulfonamide",
+      "locus_tag": "EW035_RS23625",
+      "protein_id": "WP_001043260.1",
+      "source": "paper"
+    },
+    "sul3": {
+      "name": "sul3",
+      "amr_class": "sulfonamide",
+      "locus_tag": "EW035_RS23510",
+      "protein_id": "WP_000034420.1",
+      "source": "paper"
+    },
+    "dfrA12": {
+      "name": "dfrA12",
+      "amr_class": "trimethoprim",
+      "locus_tag": "EW035_RS24220",
+      "protein_id": "WP_001083725.1",
+      "source": "paper"
+    },
+    "dfrA14": {
+      "name": "dfrA14",
+      "amr_class": "trimethoprim",
+      "locus_tag": "EW035_RS23420",
+      "protein_id": "WP_004201280.1",
+      "source": "paper"
+    },
+    "floR": {
+      "name": "floR",
+      "amr_class": "phenicol",
+      "locus_tag": "EW035_RS23465",
+      "protein_id": "WP_039023559.1",
+      "source": "paper"
+    },
+    "fosA4": {
+      "name": "fosA4",
+      "amr_class": "fosfomycin",
+      "locus_tag": "EW035_RS24270",
+      "protein_id": "WP_034169466.1",
+      "source": "paper"
+    },
+    "mph(A)": {
+      "name": "mph(A)",
+      "amr_class": "macrolide",
+      "locus_tag": "EW035_RS24255",
+      "protein_id": "WP_000219391.1",
+      "source": "paper"
+    }
+  },
+  "MS_14387": {
+    "blaTEM-1b": {
+      "name": "blaTEM-1b",
+      "amr_class": "beta_lactam",
+      "locus_tag": "FVE81_RS25140",
+      "protein_id": "WP_000027057.1",
+      "source": "paper (GFF labels as TEM-1)"
+    },
+    "strAB": {
+      "name": "strAB",
+      "amr_class": "aminoglycoside",
+      "locus_tag": ["FVE81_RS25180", "FVE81_RS25185"],
+      "protein_id": ["WP_001082319.1", "WP_000480968.1"],
+      "source": "paper (strB=aph(3'')-Ib FVE81_RS25180, strA/APH(6)-Id FVE81_RS25185)"
+    },
+    "sul2": {
+      "name": "sul2",
+      "amr_class": "sulfonamide",
+      "locus_tag": "FVE81_RS25175",
+      "protein_id": "WP_001043265.1",
+      "source": "paper"
+    }
+  }
+}

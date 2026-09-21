@@ -1,0 +1,5 @@
+strain,marker,amr_class,locus_tag,protein_id,COG,n_kegg_pathways,n_ppi_neighbors,in_genome,in_aligned_omics
+MS_14387,blaTEM-1b,beta_lactam,FVE81_RS25140,WP_000027057.1,V,6,0,True,True
+MS_14387,strAB,aminoglycoside,FVE81_RS25180,WP_001082319.1;WP_000480968.1,J,0,0,True,True
+MS_14387,strAB,aminoglycoside,FVE81_RS25185,WP_001082319.1;WP_000480968.1,-,0,0,True,False
+MS_14387,sul2,sulfonamide,FVE81_RS25175,WP_001043265.1,H,4,0,True,True

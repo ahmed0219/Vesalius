@@ -1,0 +1,123 @@
+strain,marker,amr_class,locus_tag,protein_id,hyperedge_id,hyperedge_type,hyperedge_name,hyperedge_n_nodes
+MS_14386,blaTEM-1b,beta_lactam,EW035_RS23590,WP_000027057.1,2256,multi_omics_triple,Triple_EW035_RS23590,3
+MS_14386,blaTEM-1b,beta_lactam,EW035_RS23590,WP_000027057.1,2414,kegg_pathway,map01501,19
+MS_14386,blaTEM-1b,beta_lactam,EW035_RS23590,WP_000027057.1,2415,kegg_pathway,ko01501,19
+MS_14386,blaTEM-1b,beta_lactam,EW035_RS23590,WP_000027057.1,2578,kegg_pathway,ko01130,204
+MS_14386,blaTEM-1b,beta_lactam,EW035_RS23590,WP_000027057.1,2579,kegg_pathway,map01130,204
+MS_14386,blaTEM-1b,beta_lactam,EW035_RS23590,WP_000027057.1,2688,kegg_pathway,ko00311,2
+MS_14386,blaTEM-1b,beta_lactam,EW035_RS23590,WP_000027057.1,2689,kegg_pathway,map00311,2
+MS_14386,blaTEM-1b,beta_lactam,EW035_RS23590,WP_000027057.1,2705,cog_category,COG_V: Defense mechanisms,56
+MS_14386,blaTEM-1b,beta_lactam,EW035_RS23590,WP_000027057.1,2710,amr_mechanism,beta_lactam_resistance,5
+MS_14386,blaTEM-1b,beta_lactam,EW035_RS23590,WP_000027057.1,2864,go_term,GO:0046677: P:response to antibiotic,36
+MS_14386,blaTEM-1b,beta_lactam,EW035_RS23590,WP_000027057.1,3091,go_term,GO:0008800: F:beta-lactamase activity,3
+MS_14386,blaTEM-1b,beta_lactam,EW035_RS23590,WP_000027057.1,3609,metabolic_pathway,Metabolic_map00311,5
+MS_14386,blaTEM-1b,beta_lactam,EW035_RS23590,WP_000027057.1,3736,go_term,GO:0030655: GO:0030655,1
+MS_14386,blaTEM-215,beta_lactam,EW035_RS24340,WP_050190632.1,2290,multi_omics_triple,Triple_EW035_RS24340,3
+MS_14386,blaTEM-215,beta_lactam,EW035_RS24340,WP_050190632.1,2414,kegg_pathway,map01501,19
+MS_14386,blaTEM-215,beta_lactam,EW035_RS24340,WP_050190632.1,2415,kegg_pathway,ko01501,19
+MS_14386,blaTEM-215,beta_lactam,EW035_RS24340,WP_050190632.1,2578,kegg_pathway,ko01130,204
+MS_14386,blaTEM-215,beta_lactam,EW035_RS24340,WP_050190632.1,2579,kegg_pathway,map01130,204
+MS_14386,blaTEM-215,beta_lactam,EW035_RS24340,WP_050190632.1,2688,kegg_pathway,ko00311,2
+MS_14386,blaTEM-215,beta_lactam,EW035_RS24340,WP_050190632.1,2689,kegg_pathway,map00311,2
+MS_14386,blaTEM-215,beta_lactam,EW035_RS24340,WP_050190632.1,2705,cog_category,COG_V: Defense mechanisms,56
+MS_14386,blaTEM-215,beta_lactam,EW035_RS24340,WP_050190632.1,2710,amr_mechanism,beta_lactam_resistance,5
+MS_14386,blaTEM-215,beta_lactam,EW035_RS24340,WP_050190632.1,3609,metabolic_pathway,Metabolic_map00311,5
+MS_14386,aac(3)-IId,aminoglycoside,EW035_RS23675,WP_000557454.1,2262,multi_omics_triple,Triple_EW035_RS23675,3
+MS_14386,aac(3)-IId,aminoglycoside,EW035_RS23675,WP_000557454.1,2705,cog_category,COG_V: Defense mechanisms,56
+MS_14386,aac(3)-IId,aminoglycoside,EW035_RS23675,WP_000557454.1,2711,amr_mechanism,aminoglycoside_resistance,10
+MS_14386,aac(3)-IId,aminoglycoside,EW035_RS23675,WP_000557454.1,2864,go_term,GO:0046677: P:response to antibiotic,36
+MS_14386,aac(3)-IId,aminoglycoside,EW035_RS23675,WP_000557454.1,3737,go_term,GO:0046353: GO:0046353,1
+MS_14386,aadA1,aminoglycoside,EW035_RS23490,,2711,amr_mechanism,aminoglycoside_resistance,10
+MS_14386,aph(3')-Ia,aminoglycoside,EW035_RS23605,WP_000018329.1,2257,multi_omics_triple,Triple_EW035_RS23605,3
+MS_14386,aph(3')-Ia,aminoglycoside,EW035_RS23605,WP_000018329.1,2699,cog_category,COG_F: Nucleotide transport and metabolism,372
+MS_14386,aph(3')-Ia,aminoglycoside,EW035_RS23605,WP_000018329.1,2711,amr_mechanism,aminoglycoside_resistance,10
+MS_14386,aph(3')-Ia,aminoglycoside,EW035_RS23605,WP_000018329.1,2732,go_term,GO:0005524: F:ATP binding,182
+MS_14386,aph(3')-Ia,aminoglycoside,EW035_RS23605,WP_000018329.1,2743,go_term,GO:0046872: F:metal ion binding,124
+MS_14386,aph(3')-Ia,aminoglycoside,EW035_RS23605,WP_000018329.1,2864,go_term,GO:0046677: P:response to antibiotic,36
+MS_14386,aph(3')-Ia,aminoglycoside,EW035_RS23605,WP_000018329.1,3738,go_term,GO:0008910: GO:0008910,1
+MS_14386,strAB,aminoglycoside,EW035_RS23615,WP_001495812.1,2258,multi_omics_triple,Triple_EW035_RS23615,3
+MS_14386,strAB,aminoglycoside,EW035_RS23615,WP_001495812.1,2705,cog_category,COG_V: Defense mechanisms,56
+MS_14386,strAB,aminoglycoside,EW035_RS23615,WP_001495812.1,2711,amr_mechanism,aminoglycoside_resistance,10
+MS_14386,sul2,sulfonamide,EW035_RS23625,WP_001043260.1,2260,multi_omics_triple,Triple_EW035_RS23625,3
+MS_14386,sul2,sulfonamide,EW035_RS23625,WP_001043260.1,2324,kegg_pathway,map01100,656
+MS_14386,sul2,sulfonamide,EW035_RS23625,WP_001043260.1,2325,kegg_pathway,ko01100,656
+MS_14386,sul2,sulfonamide,EW035_RS23625,WP_001043260.1,2410,kegg_pathway,map00790,27
+MS_14386,sul2,sulfonamide,EW035_RS23625,WP_001043260.1,2411,kegg_pathway,ko00790,27
+MS_14386,sul2,sulfonamide,EW035_RS23625,WP_001043260.1,2695,cog_category,COG_H: Coenzyme transport and metabolism,210
+MS_14386,sul2,sulfonamide,EW035_RS23625,WP_001043260.1,2712,amr_mechanism,sulfonamide_resistance,5
+MS_14386,sul2,sulfonamide,EW035_RS23625,WP_001043260.1,2729,go_term,GO:0005829: C:cytosol,494
+MS_14386,sul2,sulfonamide,EW035_RS23625,WP_001043260.1,2743,go_term,GO:0046872: F:metal ion binding,124
+MS_14386,sul2,sulfonamide,EW035_RS23625,WP_001043260.1,2864,go_term,GO:0046677: P:response to antibiotic,36
+MS_14386,sul2,sulfonamide,EW035_RS23625,WP_001043260.1,2977,go_term,GO:0046654: P:tetrahydrofolate biosynthetic process,7
+MS_14386,sul2,sulfonamide,EW035_RS23625,WP_001043260.1,3194,go_term,GO:0046656: P:folic acid biosynthetic process,4
+MS_14386,sul2,sulfonamide,EW035_RS23625,WP_001043260.1,3520,metabolic_pathway,Metabolic_map01100,818
+MS_14386,sul2,sulfonamide,EW035_RS23625,WP_001043260.1,3727,metabolic_pathway,Metabolic_map00790,29
+MS_14386,sul2,sulfonamide,EW035_RS23625,WP_001043260.1,3739,go_term,GO:0004156: GO:0004156,1
+MS_14386,sul3,sulfonamide,EW035_RS23510,WP_000034420.1,2254,multi_omics_triple,Triple_EW035_RS23510,3
+MS_14386,sul3,sulfonamide,EW035_RS23510,WP_000034420.1,2324,kegg_pathway,map01100,656
+MS_14386,sul3,sulfonamide,EW035_RS23510,WP_000034420.1,2325,kegg_pathway,ko01100,656
+MS_14386,sul3,sulfonamide,EW035_RS23510,WP_000034420.1,2410,kegg_pathway,map00790,27
+MS_14386,sul3,sulfonamide,EW035_RS23510,WP_000034420.1,2411,kegg_pathway,ko00790,27
+MS_14386,sul3,sulfonamide,EW035_RS23510,WP_000034420.1,2695,cog_category,COG_H: Coenzyme transport and metabolism,210
+MS_14386,sul3,sulfonamide,EW035_RS23510,WP_000034420.1,2712,amr_mechanism,sulfonamide_resistance,5
+MS_14386,sul3,sulfonamide,EW035_RS23510,WP_000034420.1,2729,go_term,GO:0005829: C:cytosol,494
+MS_14386,sul3,sulfonamide,EW035_RS23510,WP_000034420.1,2743,go_term,GO:0046872: F:metal ion binding,124
+MS_14386,sul3,sulfonamide,EW035_RS23510,WP_000034420.1,2864,go_term,GO:0046677: P:response to antibiotic,36
+MS_14386,sul3,sulfonamide,EW035_RS23510,WP_000034420.1,2977,go_term,GO:0046654: P:tetrahydrofolate biosynthetic process,7
+MS_14386,sul3,sulfonamide,EW035_RS23510,WP_000034420.1,3194,go_term,GO:0046656: P:folic acid biosynthetic process,4
+MS_14386,sul3,sulfonamide,EW035_RS23510,WP_000034420.1,3520,metabolic_pathway,Metabolic_map01100,818
+MS_14386,sul3,sulfonamide,EW035_RS23510,WP_000034420.1,3727,metabolic_pathway,Metabolic_map00790,29
+MS_14386,sul3,sulfonamide,EW035_RS23510,WP_000034420.1,3740,go_term,GO:0004156: GO:0004156,1
+MS_14386,dfrA12,trimethoprim,EW035_RS24220,WP_001083725.1,2283,multi_omics_triple,Triple_EW035_RS24220,3
+MS_14386,dfrA12,trimethoprim,EW035_RS24220,WP_001083725.1,2324,kegg_pathway,map01100,656
+MS_14386,dfrA12,trimethoprim,EW035_RS24220,WP_001083725.1,2325,kegg_pathway,ko01100,656
+MS_14386,dfrA12,trimethoprim,EW035_RS24220,WP_001083725.1,2410,kegg_pathway,map00790,27
+MS_14386,dfrA12,trimethoprim,EW035_RS24220,WP_001083725.1,2411,kegg_pathway,ko00790,27
+MS_14386,dfrA12,trimethoprim,EW035_RS24220,WP_001083725.1,2424,kegg_pathway,map00670,18
+MS_14386,dfrA12,trimethoprim,EW035_RS24220,WP_001083725.1,2425,kegg_pathway,ko00670,18
+MS_14386,dfrA12,trimethoprim,EW035_RS24220,WP_001083725.1,2434,kegg_pathway,map01523,6
+MS_14386,dfrA12,trimethoprim,EW035_RS24220,WP_001083725.1,2435,kegg_pathway,ko01523,6
+MS_14386,dfrA12,trimethoprim,EW035_RS24220,WP_001083725.1,2695,cog_category,COG_H: Coenzyme transport and metabolism,210
+MS_14386,dfrA12,trimethoprim,EW035_RS24220,WP_001083725.1,2713,amr_mechanism,trimethoprim_resistance,5
+MS_14386,dfrA12,trimethoprim,EW035_RS24220,WP_001083725.1,2729,go_term,GO:0005829: C:cytosol,494
+MS_14386,dfrA12,trimethoprim,EW035_RS24220,WP_001083725.1,2803,go_term,GO:0050661: F:NADP binding,15
+MS_14386,dfrA12,trimethoprim,EW035_RS24220,WP_001083725.1,2811,go_term,GO:0006730: P:one-carbon metabolic process,7
+MS_14386,dfrA12,trimethoprim,EW035_RS24220,WP_001083725.1,2977,go_term,GO:0046654: P:tetrahydrofolate biosynthetic process,7
+MS_14386,dfrA12,trimethoprim,EW035_RS24220,WP_001083725.1,3520,metabolic_pathway,Metabolic_map01100,818
+MS_14386,dfrA12,trimethoprim,EW035_RS24220,WP_001083725.1,3595,metabolic_pathway,Metabolic_map01523,10
+MS_14386,dfrA12,trimethoprim,EW035_RS24220,WP_001083725.1,3613,metabolic_pathway,Metabolic_map00670,28
+MS_14386,dfrA12,trimethoprim,EW035_RS24220,WP_001083725.1,3727,metabolic_pathway,Metabolic_map00790,29
+MS_14386,dfrA12,trimethoprim,EW035_RS24220,WP_001083725.1,3741,go_term,GO:0004146: GO:0004146,1
+MS_14386,dfrA12,trimethoprim,EW035_RS24220,WP_001083725.1,3742,go_term,GO:0046452: GO:0046452,1
+MS_14386,dfrA12,trimethoprim,EW035_RS24220,WP_001083725.1,3743,go_term,GO:0046655: GO:0046655,1
+MS_14386,dfrA14,trimethoprim,EW035_RS23420,WP_004201280.1,2253,multi_omics_triple,Triple_EW035_RS23420,3
+MS_14386,dfrA14,trimethoprim,EW035_RS23420,WP_004201280.1,2324,kegg_pathway,map01100,656
+MS_14386,dfrA14,trimethoprim,EW035_RS23420,WP_004201280.1,2325,kegg_pathway,ko01100,656
+MS_14386,dfrA14,trimethoprim,EW035_RS23420,WP_004201280.1,2410,kegg_pathway,map00790,27
+MS_14386,dfrA14,trimethoprim,EW035_RS23420,WP_004201280.1,2411,kegg_pathway,ko00790,27
+MS_14386,dfrA14,trimethoprim,EW035_RS23420,WP_004201280.1,2424,kegg_pathway,map00670,18
+MS_14386,dfrA14,trimethoprim,EW035_RS23420,WP_004201280.1,2425,kegg_pathway,ko00670,18
+MS_14386,dfrA14,trimethoprim,EW035_RS23420,WP_004201280.1,2695,cog_category,COG_H: Coenzyme transport and metabolism,210
+MS_14386,dfrA14,trimethoprim,EW035_RS23420,WP_004201280.1,2713,amr_mechanism,trimethoprim_resistance,5
+MS_14386,dfrA14,trimethoprim,EW035_RS23420,WP_004201280.1,2803,go_term,GO:0050661: F:NADP binding,15
+MS_14386,dfrA14,trimethoprim,EW035_RS23420,WP_004201280.1,2811,go_term,GO:0006730: P:one-carbon metabolic process,7
+MS_14386,dfrA14,trimethoprim,EW035_RS23420,WP_004201280.1,2977,go_term,GO:0046654: P:tetrahydrofolate biosynthetic process,7
+MS_14386,dfrA14,trimethoprim,EW035_RS23420,WP_004201280.1,3520,metabolic_pathway,Metabolic_map01100,818
+MS_14386,dfrA14,trimethoprim,EW035_RS23420,WP_004201280.1,3613,metabolic_pathway,Metabolic_map00670,28
+MS_14386,dfrA14,trimethoprim,EW035_RS23420,WP_004201280.1,3727,metabolic_pathway,Metabolic_map00790,29
+MS_14386,dfrA14,trimethoprim,EW035_RS23420,WP_004201280.1,3744,go_term,GO:0004146: GO:0004146,1
+MS_14386,dfrA14,trimethoprim,EW035_RS23420,WP_004201280.1,3745,go_term,GO:0046452: GO:0046452,1
+MS_14386,dfrA14,trimethoprim,EW035_RS23420,WP_004201280.1,3746,go_term,GO:0046655: GO:0046655,1
+MS_14386,floR,phenicol,EW035_RS23465,,2693,cog_category,COG_G: Carbohydrate transport and metabolism,229
+MS_14386,floR,phenicol,EW035_RS23465,,2696,cog_category,COG_E: Amino acid transport and metabolism,357
+MS_14386,floR,phenicol,EW035_RS23465,,2701,cog_category,COG_P: Inorganic ion transport and metabolism,277
+MS_14386,floR,phenicol,EW035_RS23465,,2714,amr_mechanism,phenicol_resistance,2
+MS_14386,fosA4,fosfomycin,EW035_RS24270,WP_034169466.1,2285,multi_omics_triple,Triple_EW035_RS24270,3
+MS_14386,fosA4,fosfomycin,EW035_RS24270,WP_034169466.1,2696,cog_category,COG_E: Amino acid transport and metabolism,357
+MS_14386,fosA4,fosfomycin,EW035_RS24270,WP_034169466.1,2715,amr_mechanism,fosfomycin_resistance,3
+MS_14386,fosA4,fosfomycin,EW035_RS24270,WP_034169466.1,2743,go_term,GO:0046872: F:metal ion binding,124
+MS_14386,fosA4,fosfomycin,EW035_RS24270,WP_034169466.1,3036,go_term,GO:0016740: F:transferase activity,10
+MS_14386,mph(A),macrolide,EW035_RS24255,WP_000219391.1,2284,multi_omics_triple,Triple_EW035_RS24255,3
+MS_14386,mph(A),macrolide,EW035_RS24255,WP_000219391.1,2691,cog_category,COG_S: Function unknown,752
+MS_14386,mph(A),macrolide,EW035_RS24255,WP_000219391.1,2716,amr_mechanism,macrolide_resistance,3
+MS_14386,mph(A),macrolide,EW035_RS24255,WP_000219391.1,3036,go_term,GO:0016740: F:transferase activity,10

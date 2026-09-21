@@ -1,0 +1,35 @@
+{
+  "B36": {
+    "name": "Escherichia coli B36",
+    "ncbi_tax_id": 562,
+    "kegg_code": "eco",
+    "regulation_std_multiplier": 0.0,
+    "string_species_primary": 199310,
+    "string_species_fallback": 511145,
+    "paths": {
+      "genome_gff": "genome/900622635.1/ncbi_dataset/data/GCF_900622635.1/genomic.gff",
+      "genome_fna": "genome/900622635.1/ncbi_dataset/data/GCF_900622635.1/GCF_900622635.1_B36_genomic.fna",
+      "cds_fna": "genome/900622635.1/ncbi_dataset/data/GCF_900622635.1/cds_from_genomic.fna",
+      "protein_faa": "genome/900622635.1/ncbi_dataset/data/GCF_900622635.1/protein.faa",
+      "rna_counts": "transcriptomic/GSE152966_gene_counts.txt",
+      "rna_cpmlog2": "transcriptomic/GSE152966_gene_cpmlog2.txt.gz",
+      "prot_file": "proteomics/Ecoli_B36_merged.xlsx"
+    },
+    "transcriptomics": {
+      "rpmi_samples": ["50857", "50858", "51033", "51034", "51035", "51036"],
+      "sera_samples": ["50863", "50864", "51037", "51038", "51039", "51040"]
+    },
+    "proteomics": {
+      "sheet": "Area - proteins",
+      "protein_col": "Protein",
+      "gene_col": null,
+      "rpmi_ids": [50973, 50974, 50975, 50976, 50977, 50978],
+      "sera_ids": [50979, 50980, 50981, 50982, 50983, 50984],
+      "swath": {
+        "enabled": true,
+        "rpmi_template": "{sid} (180525_P21506_SWATH_{sid}.wiff (sample 1))",
+        "sera_template": "{sid} (180525_P21506_SWATH_{sid}.wiff (sample 1))"
+      }
+    }
+  }
+}

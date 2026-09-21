@@ -1,0 +1,2 @@
+strain,marker,amr_class,locus_tag,protein_id,COG,n_kegg_pathways,n_ppi_neighbors,in_genome,in_aligned_omics
+MS_14384,blaCMY-2,beta_lactam,EW037_RS20170,WP_000976514.1,V,4,0,True,True

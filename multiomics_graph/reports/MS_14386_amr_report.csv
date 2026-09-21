@@ -1,0 +1,15 @@
+strain,marker,amr_class,locus_tag,protein_id,COG,n_kegg_pathways,n_ppi_neighbors,in_genome,in_aligned_omics
+MS_14386,blaTEM-1b,beta_lactam,EW035_RS23590,WP_000027057.1,V,6,0,True,True
+MS_14386,blaTEM-215,beta_lactam,EW035_RS24340,WP_050190632.1,V,6,0,True,True
+MS_14386,aac(3)-IId,aminoglycoside,EW035_RS23675,WP_000557454.1,V,0,0,True,True
+MS_14386,aadA1,aminoglycoside,EW035_RS23490,(pseudogene),-,0,0,True,False
+MS_14386,aph(3')-Ia,aminoglycoside,EW035_RS23605,WP_000018329.1,F,0,0,True,True
+MS_14386,strAB,aminoglycoside,EW035_RS23615,WP_001495812.1;WP_001082320.1,V,0,0,True,True
+MS_14386,strAB,aminoglycoside,EW035_RS23620,WP_001495812.1;WP_001082320.1,J,0,0,True,True
+MS_14386,sul2,sulfonamide,EW035_RS23625,WP_001043260.1,H,4,0,True,True
+MS_14386,sul3,sulfonamide,EW035_RS23510,WP_000034420.1,H,4,0,True,True
+MS_14386,dfrA12,trimethoprim,EW035_RS24220,WP_001083725.1,H,8,0,True,True
+MS_14386,dfrA14,trimethoprim,EW035_RS23420,WP_004201280.1,H,6,0,True,True
+MS_14386,floR,phenicol,EW035_RS23465,WP_039023559.1,"E,G,P",0,0,True,False
+MS_14386,fosA4,fosfomycin,EW035_RS24270,WP_034169466.1,E,0,0,True,True
+MS_14386,mph(A),macrolide,EW035_RS24255,WP_000219391.1,S,0,0,True,True

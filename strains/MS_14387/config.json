@@ -1,0 +1,39 @@
+{
+  "name": "Escherichia coli MS_14387",
+  "ncbi_tax_id": 562,
+  "kegg_code": "eco",
+  "regulation_std_multiplier": 0.0,
+  "string_species_primary": 199310,
+  "string_species_fallback": 511145,
+  "paths": {
+    "genome_gff": "Genome/900622685.1/ncbi_dataset/data/GCF_900622685.1/genomic.gff",
+    "genome_fna": "Genome/900622685.1/ncbi_dataset/data/GCF_900622685.1/GCF_900622685.1_MS14387_genomic.fna",
+    "protein_faa": "Genome/900622685.1/ncbi_dataset/data/GCF_900622685.1/protein.faa"
+  },
+  "transcriptomics": {
+    "rpmi_samples": ["51065", "51066", "51067", "51068", "50905", "50906"],
+    "sera_samples": ["51069", "51070", "51071", "51072", "50911", "50912"]
+  },
+  "proteomics": {
+    "rpmi_ids": [51021, 51022, 51023, 51024, 51025, 51026],
+    "sera_ids": [51027, 51028, 51029, 51030, 51031, 51032],
+    "swath": {
+      "enabled": true,
+      "file": "proteomics/Ecoli_MS14387_merged.xlsx",
+      "sheet": "Area - proteins",
+      "protein_col": "Protein",
+      "rpmi_template": "{sid} (180529_P21506_SWATH_{sid}.wiff (sample 1))",
+      "sera_template": "{sid} (180529_P21506_SWATH_{sid}.wiff (sample 1))"
+    }
+  },
+  "metabolomics": {
+    "enabled": true,
+    "maf_files": [
+      "../../metabolic/m_MTBLS2015_GC-MS___metabolite_profiling_v2_maf.tsv",
+      "../../metabolic/m_MTBLS2015_LC-MS_negative_hilic_metabolite_profiling_v2_maf.tsv"
+    ],
+    "sample_file": "../../s_MTBLS2015.txt",
+    "rpmi_samples": ["50961", "50962", "50963", "50964", "50965", "50966"],
+    "sera_samples": ["50967", "50968", "50969", "50970", "50971", "50972"]
+  }
+}

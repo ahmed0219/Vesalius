@@ -1,0 +1,35 @@
+strain,marker,amr_class,locus_tag,protein_id,hyperedge_id,hyperedge_type,hyperedge_name,hyperedge_n_nodes
+MS_14387,blaTEM-1b,beta_lactam,FVE81_RS25140,WP_000027057.1,2230,multi_omics_triple,Triple_FVE81_RS25140,3
+MS_14387,blaTEM-1b,beta_lactam,FVE81_RS25140,WP_000027057.1,2452,kegg_pathway,map01501,20
+MS_14387,blaTEM-1b,beta_lactam,FVE81_RS25140,WP_000027057.1,2453,kegg_pathway,ko01501,20
+MS_14387,blaTEM-1b,beta_lactam,FVE81_RS25140,WP_000027057.1,2518,kegg_pathway,ko01130,200
+MS_14387,blaTEM-1b,beta_lactam,FVE81_RS25140,WP_000027057.1,2519,kegg_pathway,map01130,200
+MS_14387,blaTEM-1b,beta_lactam,FVE81_RS25140,WP_000027057.1,2635,cog_category,COG_V: Defense mechanisms,44
+MS_14387,blaTEM-1b,beta_lactam,FVE81_RS25140,WP_000027057.1,2640,amr_mechanism,beta_lactam_resistance,3
+MS_14387,blaTEM-1b,beta_lactam,FVE81_RS25140,WP_000027057.1,2774,go_term,GO:0046677: P:response to antibiotic,33
+MS_14387,blaTEM-1b,beta_lactam,FVE81_RS25140,WP_000027057.1,2840,go_term,GO:0008800: F:beta-lactamase activity,3
+MS_14387,blaTEM-1b,beta_lactam,FVE81_RS25140,WP_000027057.1,3543,metabolic_pathway,Metabolic_map00311,4
+MS_14387,blaTEM-1b,beta_lactam,FVE81_RS25140,WP_000027057.1,3661,kegg_pathway,ko00311,1
+MS_14387,blaTEM-1b,beta_lactam,FVE81_RS25140,WP_000027057.1,3662,kegg_pathway,map00311,1
+MS_14387,blaTEM-1b,beta_lactam,FVE81_RS25140,WP_000027057.1,3663,go_term,GO:0030655: GO:0030655,1
+MS_14387,strAB,aminoglycoside,FVE81_RS25180,WP_001082319.1,2232,multi_omics_triple,Triple_FVE81_RS25180,3
+MS_14387,strAB,aminoglycoside,FVE81_RS25180,WP_001082319.1,2629,cog_category,"COG_J: Translation, ribosomal structure and biogenesis",430
+MS_14387,strAB,aminoglycoside,FVE81_RS25180,WP_001082319.1,2641,amr_mechanism,aminoglycoside_resistance,4
+MS_14387,strAB,aminoglycoside,FVE81_RS25180,WP_001082319.1,2665,go_term,GO:0005524: F:ATP binding,182
+MS_14387,strAB,aminoglycoside,FVE81_RS25180,WP_001082319.1,2693,go_term,GO:0046872: F:metal ion binding,122
+MS_14387,strAB,aminoglycoside,FVE81_RS25180,WP_001082319.1,2774,go_term,GO:0046677: P:response to antibiotic,33
+MS_14387,strAB,aminoglycoside,FVE81_RS25180,WP_001082319.1,3664,go_term,GO:0008910: GO:0008910,1
+MS_14387,sul2,sulfonamide,FVE81_RS25175,WP_001043265.1,2231,multi_omics_triple,Triple_FVE81_RS25175,3
+MS_14387,sul2,sulfonamide,FVE81_RS25175,WP_001043265.1,2260,kegg_pathway,map01100,653
+MS_14387,sul2,sulfonamide,FVE81_RS25175,WP_001043265.1,2261,kegg_pathway,ko01100,653
+MS_14387,sul2,sulfonamide,FVE81_RS25175,WP_001043265.1,2340,kegg_pathway,map00790,24
+MS_14387,sul2,sulfonamide,FVE81_RS25175,WP_001043265.1,2341,kegg_pathway,ko00790,24
+MS_14387,sul2,sulfonamide,FVE81_RS25175,WP_001043265.1,2624,cog_category,COG_H: Coenzyme transport and metabolism,190
+MS_14387,sul2,sulfonamide,FVE81_RS25175,WP_001043265.1,2642,amr_mechanism,sulfonamide_resistance,3
+MS_14387,sul2,sulfonamide,FVE81_RS25175,WP_001043265.1,2669,go_term,GO:0005829: C:cytosol,492
+MS_14387,sul2,sulfonamide,FVE81_RS25175,WP_001043265.1,2693,go_term,GO:0046872: F:metal ion binding,122
+MS_14387,sul2,sulfonamide,FVE81_RS25175,WP_001043265.1,2972,go_term,GO:0046656: P:folic acid biosynthetic process,3
+MS_14387,sul2,sulfonamide,FVE81_RS25175,WP_001043265.1,2975,go_term,GO:0046654: P:tetrahydrofolate biosynthetic process,4
+MS_14387,sul2,sulfonamide,FVE81_RS25175,WP_001043265.1,3433,metabolic_pathway,Metabolic_map01100,815
+MS_14387,sul2,sulfonamide,FVE81_RS25175,WP_001043265.1,3650,metabolic_pathway,Metabolic_map00790,26
+MS_14387,sul2,sulfonamide,FVE81_RS25175,WP_001043265.1,3665,go_term,GO:0004156: GO:0004156,1
