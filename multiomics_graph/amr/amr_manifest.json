@@ -182,5 +182,100 @@
       "protein_id": "WP_001043265.1",
       "source": "paper"
     }
+  },
+  "AJ218": {
+    "aadA1": {
+      "name": "aadA1",
+      "amr_class": "aminoglycoside",
+      "locus_tag": "EW045_RS27600",
+      "protein_id": "WP_001206316.1",
+      "source": "paper (GFF: ANT(3'')-Ia family aminoglycoside nucleotidyltransferase AadA1)"
+    },
+    "blaSHV-44": {
+      "name": "blaSHV-44",
+      "amr_class": "beta_lactam",
+      "locus_tag": "EW045_RS27685",
+      "protein_id": "WP_063864684.1",
+      "source": "paper (GFF: broad-spectrum class A beta-lactamase SHV-44)"
+    },
+    "tet(D)": {
+      "name": "tet(D)",
+      "amr_class": "tetracycline",
+      "locus_tag": "EW045_RS27645",
+      "protein_id": "WP_001039466.1",
+      "source": "paper (GFF: tetracycline efflux MFS transporter Tet(D))"
+    },
+    "sul1": {
+      "name": "sul1",
+      "amr_class": "sulfonamide",
+      "locus_tag": "EW045_RS27610",
+      "protein_id": "WP_000259031.1",
+      "source": "paper (GFF: sulfonamide-resistant dihydropteroate synthase Sul1)"
+    }
+  },
+  "KPC2": {
+    "aac(6')-Ib": {
+      "name": "aac(6')-Ib",
+      "amr_class": "aminoglycoside",
+      "locus_tag": "EW042_RS28655",
+      "protein_id": "WP_063840280.1",
+      "source": "paper (GFF: AAC(6')-Ib family aminoglycoside 6'-N-acetyltransferase)"
+    },
+    "aadA2": {
+      "name": "aadA2",
+      "amr_class": "aminoglycoside",
+      "locus_tag": "EW042_RS27615",
+      "protein_id": "WP_001206356.1",
+      "source": "paper (GFF: ANT(3'')-Ia family aminoglycoside nucleotidyltransferase AadA2)"
+    },
+    "aph(3')-Ia": {
+      "name": "aph(3')-Ia",
+      "amr_class": "aminoglycoside",
+      "locus_tag": "EW042_RS27535",
+      "protein_id": "WP_000018329.1",
+      "source": "paper (GFF: aminoglycoside O-phosphotransferase APH(3')-Ia)"
+    },
+    "blaKPC-2": {
+      "name": "blaKPC-2",
+      "amr_class": "beta_lactam",
+      "locus_tag": "EW042_RS13930",
+      "protein_id": "WP_004199234.1",
+      "source": "paper (GFF: carbapenem-hydrolyzing class A beta-lactamase KPC-2)"
+    },
+    "blaSHV-12": {
+      "name": "blaSHV-12",
+      "amr_class": "beta_lactam",
+      "locus_tag": "EW042_RS28620",
+      "protein_id": "WP_002904004.1",
+      "source": "paper (GFF: extended-spectrum class A beta-lactamase SHV-12)"
+    },
+    "catA1": {
+      "name": "catA1",
+      "amr_class": "phenicol",
+      "locus_tag": "EW042_RS27660",
+      "protein_id": "WP_000412211.1",
+      "source": "paper (GFF: type A-1 chloramphenicol O-acetyltransferase)"
+    },
+    "dfrA12": {
+      "name": "dfrA12",
+      "amr_class": "trimethoprim",
+      "locus_tag": "EW042_RS27625",
+      "protein_id": "WP_001083725.1",
+      "source": "paper (GFF: trimethoprim-resistant dihydrofolate reductase DfrA12)"
+    },
+    "mph(A)": {
+      "name": "mph(A)",
+      "amr_class": "macrolide",
+      "locus_tag": "EW042_RS27550",
+      "protein_id": "WP_000219391.1",
+      "source": "paper (GFF: Mph(A) family macrolide 2'-phosphotransferase)"
+    },
+    "sul1": {
+      "name": "sul1",
+      "amr_class": "sulfonamide",
+      "locus_tag": "EW042_RS27605",
+      "protein_id": "WP_000259031.1",
+      "source": "paper (GFF: sulfonamide-resistant dihydropteroate synthase Sul1)"
+    }
   }
 }
