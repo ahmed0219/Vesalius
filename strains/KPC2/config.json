@@ -1,0 +1,55 @@
+{
+  "name": "Klebsiella pneumoniae KPC2",
+  "ncbi_tax_id": 573,
+  "kegg_code": "kpn",
+  "regulation_std_multiplier": 0.0,
+  "string_species_primary": 573,
+  "string_species_fallback": 573,
+  "transcriptomics": {
+    "rpmi_samples": [
+      "51485",
+      "51486",
+      "51487",
+      "51488",
+      "51489",
+      "51490"
+    ],
+    "sera_samples": [
+      "51491",
+      "51492",
+      "51493",
+      "51494",
+      "51495",
+      "51496"
+    ]
+  },
+  "proteomics": {
+    "rpmi_ids": [
+      51629,
+      51630,
+      51631,
+      51632,
+      51633,
+      51634
+    ],
+    "sera_ids": [
+      51635,
+      51636,
+      51637,
+      51638,
+      51639,
+      51640
+    ],
+    "swath": {
+      "enabled": true,
+      "file": "proteomics/Kleb_KPC2_SWATH_merged.xlsx",
+      "sheet": "Area - proteins",
+      "protein_col": "Protein",
+      "rpmi_template": "{sid} (181025_P30150_SWATH_{sid}.wiff (sample 1))",
+      "sera_template": "{sid} (181025_P30150_SWATH_{sid}.wiff (sample 1))"
+    }
+  },
+  "metabolomics": {
+    "enabled": false
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "name": "Staphylococcus aureus BPH2900 (ST22)",
+  "ncbi_tax_id": 1280,
+  "kegg_code": "sau",
+  "regulation_std_multiplier": 0.0,
+  "string_species_primary": 1280,
+  "string_species_fallback": 1280,
+  "transcriptomics": {
+    "rpmi_samples": [
+      "50470",
+      "50471",
+      "50472",
+      "50473",
+      "50474",
+      "50475"
+    ],
+    "sera_samples": [
+      "50476",
+      "50477",
+      "50478",
+      "50480",
+      "50481"
+    ]
+  },
+  "proteomics": {
+    "rpmi_ids": [
+      50590,
+      50591,
+      50592,
+      50593,
+      50594,
+      50595
+    ],
+    "sera_ids": [
+      50596,
+      50597,
+      50598,
+      50599,
+      50600,
+      50601
+    ],
+    "swath": {
+      "enabled": true,
+      "file": "proteomics/BPH2900_SWATH_merged.xlsx",
+      "sheet": "Area - proteins",
+      "protein_col": "Protein",
+      "rpmi_template": "{sid} (170818_P20684_SWATH_BPH2900_{sid}.wiff (sample 1))",
+      "sera_template": "{sid} (170818_P20684_SWATH_BPH2900_{sid}.wiff (sample 1))"
+    }
+  },
+  "metabolomics": {
+    "enabled": false
+  }
+}

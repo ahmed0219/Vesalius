@@ -26,6 +26,7 @@ import argparse
 import warnings
 import hashlib
 import platform
+import re
 import importlib.metadata
 from pathlib import Path
 from typing import Dict, List, Optional
@@ -486,12 +487,29 @@ class StrainPipeline:
                 rpmi_template = cfg.get('prot_swath_rpmi_template', '')
                 sera_template = cfg.get('prot_swath_sera_template', '')
 
-                rpmi_cols = [rpmi_template.format(sid=sid) for sid in rpmi_ids]
-                sera_cols = [sera_template.format(sid=sid) for sid in sera_ids]
+                def _match_cols(template, sids, columns):
+                    """Resolve sample columns from a `{sid}` template.
 
-                available = set(df.columns)
-                rpmi_cols = [c for c in rpmi_cols if c in available]
-                sera_cols = [c for c in sera_cols if c in available]
+                    A literal `*` in the template is treated as a wildcard so
+                    strain batches processed across multiple dates (e.g. a
+                    changing run-date prefix) still resolve to their columns.
+                    """
+                    if not template:
+                        return []
+                    matched = []
+                    for sid in sids:
+                        pat = template.format(sid=sid)
+                        if '*' in pat:
+                            rx = re.escape(pat).replace(r'\*', '.*')
+                            matched.extend(
+                                c for c in columns if re.fullmatch(rx, c)
+                            )
+                        elif pat in columns:
+                            matched.append(pat)
+                    return matched
+
+                rpmi_cols = _match_cols(rpmi_template, rpmi_ids, df.columns)
+                sera_cols = _match_cols(sera_template, sera_ids, df.columns)
 
                 if rpmi_cols and sera_cols:
                     proto_df = pd.DataFrame()

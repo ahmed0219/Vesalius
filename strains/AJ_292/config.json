@@ -1,0 +1,55 @@
+{
+  "name": "Klebsiella variicola AJ292",
+  "ncbi_tax_id": 244366,
+  "kegg_code": "kva",
+  "regulation_std_multiplier": 0.0,
+  "string_species_primary": 244366,
+  "string_species_fallback": 573,
+  "transcriptomics": {
+    "rpmi_samples": [
+      "51473",
+      "51474",
+      "51475",
+      "51476",
+      "51477",
+      "51478"
+    ],
+    "sera_samples": [
+      "51479",
+      "51480",
+      "51481",
+      "51482",
+      "51483",
+      "51484"
+    ]
+  },
+  "proteomics": {
+    "rpmi_ids": [
+      51617,
+      51618,
+      51619,
+      51620,
+      51621,
+      51622
+    ],
+    "sera_ids": [
+      51623,
+      51624,
+      51625,
+      51626,
+      51627,
+      51628
+    ],
+    "swath": {
+      "enabled": true,
+      "file": "proteomics/Kleb_AJ292_SWATH_merged.xlsx",
+      "sheet": "Area - proteins",
+      "protein_col": "Protein",
+      "rpmi_template": "{sid} (181023_P30150_SWATH_{sid}.wiff (sample 1))",
+      "sera_template": "{sid} (181023_P30150_SWATH_{sid}.wiff (sample 1))"
+    }
+  },
+  "metabolomics": {
+    "enabled": false
+  }
+}

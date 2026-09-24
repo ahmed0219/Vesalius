@@ -29,6 +29,7 @@ AMR_CLASS_NAMES = {
     'fluoroquinolone': 'Fluoroquinolone resistance',
     'phenicol': 'Phenicol resistance',
     'fosfomycin': 'Fosfomycin resistance',
+    'streptothricin': 'Streptothricin resistance',
 }
 
 
