@@ -106,8 +106,14 @@
     "strAB": {
       "name": "strAB",
       "amr_class": "aminoglycoside",
-      "locus_tag": ["EW035_RS23615", "EW035_RS23620"],
-      "protein_id": ["WP_001495812.1", "WP_001082320.1"],
+      "locus_tag": [
+        "EW035_RS23615",
+        "EW035_RS23620"
+      ],
+      "protein_id": [
+        "WP_001495812.1",
+        "WP_001082320.1"
+      ],
       "source": "paper (strA=APH(6)-I EW035_RS23615, strB=aph(3'')-Ib EW035_RS23620)"
     },
     "sul2": {
@@ -171,8 +177,14 @@
     "strAB": {
       "name": "strAB",
       "amr_class": "aminoglycoside",
-      "locus_tag": ["FVE81_RS25180", "FVE81_RS25185"],
-      "protein_id": ["WP_001082319.1", "WP_000480968.1"],
+      "locus_tag": [
+        "FVE81_RS25180",
+        "FVE81_RS25185"
+      ],
+      "protein_id": [
+        "WP_001082319.1",
+        "WP_000480968.1"
+      ],
       "source": "paper (strB=aph(3'')-Ib FVE81_RS25180, strA/APH(6)-Id FVE81_RS25185)"
     },
     "sul2": {
@@ -181,6 +193,307 @@
       "locus_tag": "FVE81_RS25175",
       "protein_id": "WP_001043265.1",
       "source": "paper"
+    }
+  },
+  "BPH2760": {
+    "blaZ": {
+      "name": "blaZ",
+      "amr_class": "beta_lactam",
+      "locus_tag": "EW032_RS14010",
+      "protein_id": "WP_000733289.1",
+      "source": "curated (GFF: penicillin-hydrolyzing class A beta-lactamase BlaZ)"
+    }
+  },
+  "BPH2819": {
+    "blaZ": {
+      "name": "blaZ",
+      "amr_class": "beta_lactam",
+      "locus_tag": "EW030_RS14175",
+      "protein_id": "WP_000733271.1",
+      "source": "curated (GFF: penicillin-hydrolyzing class A beta-lactamase BlaZ)"
+    },
+    "fosB": {
+      "name": "fosB",
+      "amr_class": "fosfomycin",
+      "locus_tag": "EW030_RS11985",
+      "protein_id": "WP_000920239.1",
+      "source": "curated (GFF: FosB/FosD family fosfomycin resistance bacillithiol transferase)"
+    }
+  },
+  "BPH2900": {
+    "blaZ": {
+      "name": "blaZ",
+      "amr_class": "beta_lactam",
+      "locus_tag": "EW029_RS10175",
+      "protein_id": "WP_000733621.1",
+      "source": "curated (GFF: penicillin-hydrolyzing class A beta-lactamase BlaZ)"
+    },
+    "erm(C)": {
+      "name": "erm(C)",
+      "amr_class": "macrolide",
+      "locus_tag": "EW029_RS14520",
+      "protein_id": "WP_001003263.1",
+      "source": "curated (GFF: 23S rRNA (adenine(2058)-N(6))-methyltransferase Erm(C))"
+    },
+    "mecA": {
+      "name": "mecA",
+      "amr_class": "beta_lactam",
+      "locus_tag": "EW029_RS00180",
+      "protein_id": "WP_063852655.1",
+      "source": "curated (GFF: PBP2a family beta-lactam-resistant peptidoglycan transpeptidase MecA)"
+    }
+  },
+  "BPH2947": {
+    "aac(6')-Ie-aph(2'')-Ia": {
+      "name": "aac(6')-Ie-aph(2'')-Ia",
+      "amr_class": "aminoglycoside",
+      "locus_tag": "EW033_RS11715",
+      "protein_id": "WP_001028141.1",
+      "source": "curated (GFF: bifunctional aminoglycoside N-acetyltransferase AAC(6')-Ie / aminoglycoside O-phosphotransferase APH(2'')-Ia)"
+    },
+    "ant(6)-Ia": {
+      "name": "ant(6)-Ia",
+      "amr_class": "aminoglycoside",
+      "locus_tag": "EW033_RS11765",
+      "protein_id": null,
+      "note": "pseudogene (aminoglycoside 6-adenylyltransferase), no protein accession; genome-only",
+      "source": "curated"
+    },
+    "ant(9)-Ia": {
+      "name": "ant(9)-Ia",
+      "amr_class": "aminoglycoside",
+      "locus_tag": [
+        "EW033_RS00225",
+        "EW033_RS09140"
+      ],
+      "protein_id": [
+        "WP_000067268.1",
+        "WP_000067268.1"
+      ],
+      "source": "curated (GFF: aminoglycoside nucleotidyltransferase ANT(9)-Ia, two copies)"
+    },
+    "aph(3')-IIIa": {
+      "name": "aph(3')-IIIa",
+      "amr_class": "aminoglycoside",
+      "locus_tag": "EW033_RS11755",
+      "protein_id": "WP_001096887.1",
+      "source": "curated (GFF: aminoglycoside O-phosphotransferase APH(3')-IIIa)"
+    },
+    "blaZ": {
+      "name": "blaZ",
+      "amr_class": "beta_lactam",
+      "locus_tag": "EW033_RS15305",
+      "protein_id": "WP_000733283.1",
+      "source": "curated (GFF: BlaZ family penicillin-hydrolyzing class A beta-lactamase PC1)"
+    },
+    "dfrG": {
+      "name": "dfrG",
+      "amr_class": "trimethoprim",
+      "locus_tag": "EW033_RS02595",
+      "protein_id": "WP_000868795.1",
+      "source": "curated (GFF: trimethoprim-resistant dihydrofolate reductase DfrG)"
+    },
+    "erm(A)": {
+      "name": "erm(A)",
+      "amr_class": "macrolide",
+      "locus_tag": [
+        "EW033_RS00230",
+        "EW033_RS09135"
+      ],
+      "protein_id": [
+        "WP_001072201.1",
+        "WP_001072201.1"
+      ],
+      "source": "curated (GFF: 23S rRNA (adenine(2058)-N(6))-methyltransferase Erm(A), two copies)"
+    },
+    "fosB": {
+      "name": "fosB",
+      "amr_class": "fosfomycin",
+      "locus_tag": "EW033_RS13880",
+      "protein_id": "WP_000920239.1",
+      "source": "curated (GFF: FosB/FosD family fosfomycin resistance bacillithiol transferase)"
+    },
+    "mecA": {
+      "name": "mecA",
+      "amr_class": "beta_lactam",
+      "locus_tag": "EW033_RS00415",
+      "protein_id": "WP_078056052.1",
+      "source": "curated (GFF: PBP2a family beta-lactam-resistant peptidoglycan transpeptidase MecA)"
+    },
+    "sat": {
+      "name": "sat",
+      "amr_class": "streptothricin",
+      "locus_tag": "EW033_RS11760",
+      "protein_id": "WP_000627290.1",
+      "source": "curated (GFF: streptothricin N-acetyltransferase Sat4)"
+    },
+    "tet(K)": {
+      "name": "tet(K)",
+      "amr_class": "tetracycline",
+      "locus_tag": "EW033_RS00375",
+      "protein_id": "WP_000492283.1",
+      "source": "curated (GFF: tetracycline efflux MFS transporter Tet(K))"
+    },
+    "tet(M)": {
+      "name": "tet(M)",
+      "amr_class": "tetracycline",
+      "locus_tag": "EW033_RS02545",
+      "protein_id": "WP_000691737.1",
+      "source": "curated (GFF: tetracycline resistance ribosomal protection protein Tet(M))"
+    }
+  },
+  "BPH2986": {
+    "ant(6)-Ia": {
+      "name": "ant(6)-Ia",
+      "amr_class": "aminoglycoside",
+      "locus_tag": "EW031_RS15410",
+      "protein_id": null,
+      "note": "pseudogene (aminoglycoside 6-adenylyltransferase), no protein accession; genome-only",
+      "source": "curated"
+    },
+    "aph(3')-IIIa": {
+      "name": "aph(3')-IIIa",
+      "amr_class": "aminoglycoside",
+      "locus_tag": "EW031_RS15400",
+      "protein_id": "WP_001096887.1",
+      "source": "curated (GFF: aminoglycoside O-phosphotransferase APH(3')-IIIa)"
+    },
+    "blaZ": {
+      "name": "blaZ",
+      "amr_class": "beta_lactam",
+      "locus_tag": "EW031_RS15355",
+      "protein_id": "WP_000733287.1",
+      "source": "curated (GFF: penicillin-hydrolyzing class A beta-lactamase BlaZ)"
+    },
+    "fosB": {
+      "name": "fosB",
+      "amr_class": "fosfomycin",
+      "locus_tag": "EW031_RS13145",
+      "protein_id": "WP_000920239.1",
+      "source": "curated (GFF: FosB/FosD family fosfomycin resistance bacillithiol transferase)"
+    },
+    "mecA": {
+      "name": "mecA",
+      "amr_class": "beta_lactam",
+      "locus_tag": "EW031_RS00175",
+      "protein_id": "WP_001801873.1",
+      "source": "curated (GFF: PBP2a family beta-lactam-resistant peptidoglycan transpeptidase MecA)"
+    },
+    "mph(C)": {
+      "name": "mph(C)",
+      "amr_class": "macrolide",
+      "locus_tag": "EW031_RS15455",
+      "protein_id": "WP_000196697.1",
+      "source": "curated (GFF: Mph(C) family macrolide 2'-phosphotransferase)"
+    },
+    "msr(A)": {
+      "name": "msr(A)",
+      "amr_class": "macrolide",
+      "locus_tag": "EW031_RS15450",
+      "protein_id": "WP_000438874.1",
+      "source": "curated (GFF: ABC-F type ribosomal protection protein Msr(A))"
+    },
+    "sat": {
+      "name": "sat",
+      "amr_class": "streptothricin",
+      "locus_tag": "EW031_RS15405",
+      "protein_id": "WP_000627289.1",
+      "source": "curated (GFF: streptothricin N-acetyltransferase Sat4)"
+    }
+  },
+  "AJ218": {
+    "aadA1": {
+      "name": "aadA1",
+      "amr_class": "aminoglycoside",
+      "locus_tag": "EW045_RS27600",
+      "protein_id": "WP_001206316.1",
+      "source": "paper (GFF: ANT(3'')-Ia family aminoglycoside nucleotidyltransferase AadA1)"
+    },
+    "blaSHV-44": {
+      "name": "blaSHV-44",
+      "amr_class": "beta_lactam",
+      "locus_tag": "EW045_RS27685",
+      "protein_id": "WP_063864684.1",
+      "source": "paper (GFF: broad-spectrum class A beta-lactamase SHV-44)"
+    },
+    "tet(D)": {
+      "name": "tet(D)",
+      "amr_class": "tetracycline",
+      "locus_tag": "EW045_RS27645",
+      "protein_id": "WP_001039466.1",
+      "source": "paper (GFF: tetracycline efflux MFS transporter Tet(D))"
+    },
+    "sul1": {
+      "name": "sul1",
+      "amr_class": "sulfonamide",
+      "locus_tag": "EW045_RS27610",
+      "protein_id": "WP_000259031.1",
+      "source": "paper (GFF: sulfonamide-resistant dihydropteroate synthase Sul1)"
+    }
+  },
+  "KPC2": {
+    "aac(6')-Ib": {
+      "name": "aac(6')-Ib",
+      "amr_class": "aminoglycoside",
+      "locus_tag": "EW042_RS28655",
+      "protein_id": "WP_063840280.1",
+      "source": "paper (GFF: AAC(6')-Ib family aminoglycoside 6'-N-acetyltransferase)"
+    },
+    "aadA2": {
+      "name": "aadA2",
+      "amr_class": "aminoglycoside",
+      "locus_tag": "EW042_RS27615",
+      "protein_id": "WP_001206356.1",
+      "source": "paper (GFF: ANT(3'')-Ia family aminoglycoside nucleotidyltransferase AadA2)"
+    },
+    "aph(3')-Ia": {
+      "name": "aph(3')-Ia",
+      "amr_class": "aminoglycoside",
+      "locus_tag": "EW042_RS27535",
+      "protein_id": "WP_000018329.1",
+      "source": "paper (GFF: aminoglycoside O-phosphotransferase APH(3')-Ia)"
+    },
+    "blaKPC-2": {
+      "name": "blaKPC-2",
+      "amr_class": "beta_lactam",
+      "locus_tag": "EW042_RS13930",
+      "protein_id": "WP_004199234.1",
+      "source": "paper (GFF: carbapenem-hydrolyzing class A beta-lactamase KPC-2)"
+    },
+    "blaSHV-12": {
+      "name": "blaSHV-12",
+      "amr_class": "beta_lactam",
+      "locus_tag": "EW042_RS28620",
+      "protein_id": "WP_002904004.1",
+      "source": "paper (GFF: extended-spectrum class A beta-lactamase SHV-12)"
+    },
+    "catA1": {
+      "name": "catA1",
+      "amr_class": "phenicol",
+      "locus_tag": "EW042_RS27660",
+      "protein_id": "WP_000412211.1",
+      "source": "paper (GFF: type A-1 chloramphenicol O-acetyltransferase)"
+    },
+    "dfrA12": {
+      "name": "dfrA12",
+      "amr_class": "trimethoprim",
+      "locus_tag": "EW042_RS27625",
+      "protein_id": "WP_001083725.1",
+      "source": "paper (GFF: trimethoprim-resistant dihydrofolate reductase DfrA12)"
+    },
+    "mph(A)": {
+      "name": "mph(A)",
+      "amr_class": "macrolide",
+      "locus_tag": "EW042_RS27550",
+      "protein_id": "WP_000219391.1",
+      "source": "paper (GFF: Mph(A) family macrolide 2'-phosphotransferase)"
+    },
+    "sul1": {
+      "name": "sul1",
+      "amr_class": "sulfonamide",
+      "locus_tag": "EW042_RS27605",
+      "protein_id": "WP_000259031.1",
+      "source": "paper (GFF: sulfonamide-resistant dihydropteroate synthase Sul1)"
     }
   }
 }

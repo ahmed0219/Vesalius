@@ -1,0 +1,55 @@
+{
+  "name": "Staphylococcus aureus BPH2986 (ST8 USA300)",
+  "ncbi_tax_id": 1280,
+  "kegg_code": "sau",
+  "regulation_std_multiplier": 0.0,
+  "string_species_primary": 1280,
+  "string_species_fallback": 1280,
+  "transcriptomics": {
+    "rpmi_samples": [
+      "50494",
+      "50495",
+      "50496",
+      "50497",
+      "50498",
+      "50499"
+    ],
+    "sera_samples": [
+      "50628",
+      "50501",
+      "50502",
+      "50503",
+      "50504",
+      "50505"
+    ]
+  },
+  "proteomics": {
+    "rpmi_ids": [
+      50614,
+      50615,
+      50616,
+      50617,
+      50618,
+      50619
+    ],
+    "sera_ids": [
+      50621,
+      50622,
+      50623,
+      50624,
+      50625,
+      50634
+    ],
+    "swath": {
+      "enabled": true,
+      "file": "proteomics/BPH2986_SWATH_merged.xlsx",
+      "sheet": "Area - proteins",
+      "protein_col": "Protein",
+      "rpmi_template": "{sid} (*_P20684_SWATH_BPH2986_{sid}.wiff (sample 1))",
+      "sera_template": "{sid} (*_P20684_SWATH_BPH2986_{sid}.wiff (sample 1))"
+    }
+  },
+  "metabolomics": {
+    "enabled": false
+  }
+}

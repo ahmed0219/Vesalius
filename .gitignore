@@ -26,6 +26,11 @@ strains/*/transcriptomics/
 # eggNOG-mapper intermediates (regenerable; only the .tsv is committed)
 strains/*/eggnog_annotations.emapper.*
 
+# Raw input downloads (large; processed copies live under strains/)
+/staphylococcus_aureus/
+/GSE*.gz
+/emappertmp*/
+
 # Scratch test scripts
 multiomics_graph/_test_eggnog_api.py
 

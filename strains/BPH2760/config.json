@@ -1,0 +1,55 @@
+{
+  "name": "Staphylococcus aureus BPH2760 (ST1)",
+  "ncbi_tax_id": 1280,
+  "kegg_code": "sau",
+  "regulation_std_multiplier": 0.0,
+  "string_species_primary": 1280,
+  "string_species_fallback": 1280,
+  "transcriptomics": {
+    "rpmi_samples": [
+      "50446",
+      "50447",
+      "50448",
+      "50449",
+      "50450",
+      "50451"
+    ],
+    "sera_samples": [
+      "50452",
+      "50453",
+      "50454",
+      "50455",
+      "50456",
+      "50457"
+    ]
+  },
+  "proteomics": {
+    "rpmi_ids": [
+      50566,
+      50567,
+      50568,
+      50569,
+      50570,
+      50571
+    ],
+    "sera_ids": [
+      50572,
+      50573,
+      50574,
+      50575,
+      50576,
+      50577
+    ],
+    "swath": {
+      "enabled": true,
+      "file": "proteomics/BPH2760_SWATH_merged.xlsx",
+      "sheet": "Area - proteins",
+      "protein_col": "Protein",
+      "rpmi_template": "{sid} (170817_P20684_SWATH_BPH2760_{sid}.wiff (sample 1))",
+      "sera_template": "{sid} (170817_P20684_SWATH_BPH2760_{sid}.wiff (sample 1))"
+    }
+  },
+  "metabolomics": {
+    "enabled": false
+  }
+}
